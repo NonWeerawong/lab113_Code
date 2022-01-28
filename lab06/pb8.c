@@ -25,7 +25,7 @@ int main()
 	
     for (i = 0; i < numPrisoners; i++) {
         
-		killerPtr = &prisoners[0];
+	killerPtr = &prisoners[0];
         static int pos=0;
         pos += m-1;
         pos %= numPrisoners-i;
